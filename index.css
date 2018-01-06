@@ -1,0 +1,29 @@
+html {
+	background-color: #00b3b3;
+	line-height: 1.4;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	margin:0;
+	padding:0;
+}
+
+.fix {
+	clear: both;
+}
+.row:before,
+.row:after,
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+.row:after,
+.group:after {
+	clear: both;
+}
+.row,
+.group {
+	zoom: 1;
+}
